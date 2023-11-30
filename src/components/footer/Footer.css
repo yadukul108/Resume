@@ -1,0 +1,132 @@
+.links{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.insta{
+    background-image: url("./icons8-insta-48.png");
+    background-size: cover;
+    height: 2rem;
+    width: 2rem;
+    margin:0  0.75rem;
+    cursor: pointer;
+
+}
+.linkdin{
+    background-image: url("./icons8-linkedin-48.png");
+    background-size: cover;
+    height: 2rem;
+    width: 2rem;
+    margin:0  0.75rem;
+        cursor: pointer;
+
+}
+.facebook{
+    background-image: url("./icons8-facebook-50.png");
+    background-size: cover;
+    height: 2rem;
+    width: 2rem;    margin:0  0.75rem;
+    cursor: pointer;
+    cursor: pointer;
+
+}
+.github{
+    background-image: url("./icons8-github-48\ \(1\).png");
+    background-size: cover;
+    height: 2rem;
+    width: 2rem;
+    margin:0  0.75rem;
+    cursor: pointer;
+}
+.lododiv{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo
+{
+    background-image: url("./icons8-a-100.png");
+    background-size: cover;
+    height:6rem;
+    width:6rem;
+    
+}
+.footer{
+    background-color: orange;
+    height:60vh;
+    width:100%;
+margin-top: 10rem;
+@media screen and (max-width:480px){
+height: 45vh;}
+
+}
+.colab{
+    background-color: darkorange;
+    z-index:1;
+    height: 20vh;
+    width: 100%;
+    margin:0 auto;
+    position:relative;
+    top:-4rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 60%;
+    @media screen and (max-width:480px){
+        width:80%;
+        height: 15vh;
+        display: block;
+    }
+
+}
+.start{
+    font-weight: 700;
+    font-size: larger;
+    color: black;
+    @media screen and (max-width:480px){
+        text-align: center;
+    }
+}
+.chat{
+    font-size: small;
+    text-align: center;
+    padding: 0 3rem;
+    
+    width:25rem;
+    @media screen and (max-width:480px){
+        text-align: center;
+        padding: 1rem 0;
+        width:auto
+    }
+}
+.LET{
+    background-color: white;
+    border-radius: 1rem;
+    border: none;
+    height: 3rem;
+ cursor: pointer;   width:8rem;
+ transition: transform 0.3s ease; /* Add a smooth transition effect for the transform property */
+ @media screen and (max-width:480px){
+margin-left: 4rem;}
+
+}
+.LET:hover{
+    transform: scale(1.05); /* Scale the button by 5% on hover */
+    background-color: orange;
+
+}
+.statement{
+    text-align: center;
+    font-weight: 600;
+    padding:1rem;
+font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+.copywrite{
+    text-align: center;
+    font-size: small;
+    position: relative;
+    bottom: -3rem;
+}

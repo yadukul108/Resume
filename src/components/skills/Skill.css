@@ -1,0 +1,134 @@
+.SkillSection{
+    height:113vh;
+    width:100%;
+    max-width: 75%;
+    margin: 0 auto;
+    overflow: hidden;
+
+    position: relative;
+    
+    /* display:flex;
+    align-items: center;
+    
+    justify-content:center; */
+    @media screen and (max-width:480px){
+        height: 92vh;
+    }
+
+}
+.heading{
+    width:75vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        font-weight: 700;
+}
+.experience{
+    width:73vw;
+    height:50%;
+    background-color: orange;
+    border: none;
+    border-radius: 1rem;
+    /* display:flex;
+    /* align-items: center; */
+    /* justify-content: center; */ 
+}
+.expheading{
+    font-size: large;
+    font-weight: 600;
+    text-align: center;
+    padding:2rem;
+    z-index:-1;
+}
+.skills{
+   
+    width:75vw;
+    height:75vh;
+    display: flex;
+    justify-content: center;
+}
+.frontend{
+    width: 20vw;
+    height:65vh;
+    background-color: white;
+    z-index: 3;
+    border-radius: 1rem;
+    border: 3px solid black;
+    margin:0.5rem;
+    
+    @media screen and (max-width:480px){
+        height: 50vh;
+        width:50%;
+    }
+}
+.backend{
+    margin:0.5rem;
+
+    
+    width: 20vw;
+    height:65vh;
+    background-color: white;
+    z-index: 3;
+    border-radius: 1rem;
+    border: 3px solid black;
+    @media screen and (max-width:480px){
+        height: 50vh;
+        width:50%;
+    }
+
+
+}
+.Icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+}
+.frontIcon{
+background-image: url("./icons8-creative-design-50.png");
+background-size: cover;
+height: 3rem;
+width:3rem;
+}
+.backIcon{
+    background-image: url("./icons8-backend-development-48.png");
+    background-size: cover;
+    height: 3rem;
+    width:3rem;
+    }
+    .skillheading{
+        font-weight: 600;
+        display:flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .para{
+        margin:2rem;
+        display:flex;
+        justify-content: center;
+        text-align: center;
+        @media screen and (max-width:480px){
+            font-size: smaller;
+        }
+   
+    }
+    .subheading{
+        color: orange;
+        display:flex;
+        justify-content: center;
+        text-align: center;
+   font-weight: 500;
+
+    }
+    .language{
+        display:flex;
+        justify-content: center;
+        text-align: center;
+   margin-bottom:1rem;
+    }
+    .tools{
+        display:flex;
+        justify-content: center;
+        text-align: center;
+    }

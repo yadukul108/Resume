@@ -1,0 +1,110 @@
+#ContactTitle{
+    height:100%;
+    width:100vw;
+    max-width: 75%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    
+
+}
+.title{
+    width:75vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        font-weight: 700;
+}
+.descriptionContact{
+    padding:1rem;
+    font-weight: 600;
+    font-size: medium;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media screen and (max-width:480px){
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+    
+}
+.contactform{
+margin: 1rem;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+width:60vw;
+margin-left: 6rem;
+max-width: 60rem;
+border:none;
+background-color: orange;
+border-radius: 2rem;
+padding:0.5rem;
+@media screen and (max-width:480px){
+    width:89%;
+    display: block;
+    margin-left: 0;
+    padding: 1rem;
+}
+}
+.name,.email,.msg{
+    font-size: medium;
+    width: 100%;
+    max-width: 40rem;
+    margin:0.5rem;
+    padding:0.5rem 1rem;
+border: none;
+border-radius: 0.5rem;
+@media screen and (max-width:480px){
+    width:85%;
+}
+
+}
+.submit{
+    background-color: white;
+    border:none;
+    padding:0.75rem 3.5rem;
+    border-radius: 0.25rem;
+    margin:2rem;
+    @media screen and (max-width:480px){
+        width:13.5rem;
+    }
+}
+.links{
+    display: flex;
+    flex-wrap: wrap;
+}
+.insta{
+    background-image: url("./icons8-insta-48.png");
+    background-size: cover;
+    height: 3rem;
+    width: 3rem;
+    margin:0  0.75rem;
+
+}
+.linkdin{
+    background-image: url("./icons8-linkedin-48.png");
+    background-size: cover;
+    height: 3rem;
+    width: 3rem;
+    margin:0  0.75rem;
+    
+}
+.facebook{
+    background-image: url("./icons8-facebook-50.png");
+    background-size: cover;
+    height: 3rem;
+    width: 3rem;
+    margin:0  0.75rem;
+    
+}
+.github{
+    background-image: url("./icons8-github-48\ \(1\).png");
+    background-size: cover;
+    height: 3rem;
+    width: 3rem;
+    margin:0  0.75rem;
+    
+}

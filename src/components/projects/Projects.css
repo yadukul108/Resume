@@ -1,0 +1,116 @@
+.Projects{
+    height:120vh;
+    width:100%;
+    max-width: 75%;
+    margin: 0 auto;
+    overflow: hidden;
+
+    position: relative;
+    @media screen and (max-width:480px){
+        height: 158vh;
+    }
+}
+.heading{
+    width:75vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        font-weight: 700;
+}
+
+.work{
+    display:flex;
+    justify-content: space-between;
+    height: 56vh;
+    width:100%;
+    @media screen and (max-width:480px){
+       display: block;
+       height: auto;
+    }
+}
+.image{
+    background-image: url("./hospital.jpg");
+    background-size: cover;
+    height:71%;
+    width:34%;
+    @media screen and (max-width:480px){
+        height: 26vh;
+        width:100%;
+    }
+
+}
+.explanation{
+    width:66%;
+    
+    @media screen and (max-width:480px){
+        width:100%;
+    }
+}
+.heading1{
+    display: flex;
+    justify-content: right;
+    color:black;
+    font-size: large;
+    margin-right:2rem;
+    @media screen and (max-width:480px){
+        display: none;
+        justify-content: center;
+    }
+}
+.heading2{
+    display: flex;
+    justify-content: right;
+    color:orange;
+    font-size: larger;
+    font-weight: 600;
+    margin:2rem;
+
+
+}
+.description{
+    display: flex;
+    justify-content: right;
+    text-align: right;
+    font-size: medium;
+    margin:2rem;
+
+}
+.toolsUsed{
+    display: flex;
+    justify-content: right;
+    text-align: right;
+    font-size: medium;
+    margin:2rem;
+
+
+}
+.git{
+    display: flex;
+    justify-content: right;
+    margin:2rem;
+}
+.gitimage{
+    background-image: url("./icons8-github-48.png");
+    background-size: cover;
+    height:2rem;
+width:2rem;
+margin:0 1rem;}
+.link{
+    background-image: url("./icons8-link-50.png");
+    background-size: cover;
+    height:2rem;
+width:2rem;
+cursor: pointer;
+
+}
+.image2{
+    background-image: url("./newsapp.webp");
+    background-size: cover;
+    height:87%;
+    width:34%;
+    @media screen and (max-width:480px){
+        height: 33vh;
+        width:100%;
+    }
+
+}

@@ -1,0 +1,94 @@
+#intro{
+    height: calc(95vh - 5rem);
+    overflow: hidden;
+    width: 100%;
+    max-width: 75%;
+    margin: 0 auto;
+    position: relative;
+    display:flex;
+    justify-content: space-between;
+    @media screen and (max-width:480px){
+        height: calc(90vh - 5rem);
+    }
+}
+.profilepic{
+   
+   
+    background-image: url("./1701107684567-removebg-preview.png");
+/* height: 75%;
+    background-size: cover;
+    position: absolute;
+    /* top: -4rem; */
+    /* z-index: -1;
+    right: 0;  */
+    height:100vh;
+    width:25vw;
+
+    position:absolute;
+    top:-4rem;
+    right:0;
+    background-size: cover;
+    z-index: -1;
+    @media screen and (max-width:480px){
+        height:42vh;
+        width:82vw;
+        position:absolute;
+    top:-10rem;
+    right:-3rem;
+    background-size: cover;
+    z-index: -1;
+    }
+
+}
+.introcontent{
+    height: 100vh;
+    width:75%;
+    padding :2rem;
+    font-size: 2rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+   
+
+}
+.Hello{
+    font-size: 1.75rem;
+    font-weight: 100;
+}
+.introName{
+    color: orange;
+}
+.intropara{
+    font-size: medium;
+    font-weight: 100;
+   
+}
+.hireImage{
+    background: url("./icons8-briefcase-50\ \(1\).png");
+    background-size: cover;
+    height:2rem;
+    width:2rem;
+    margin:0rem 0.75rem;
+}
+.hireBtn{
+    background-color: orange;
+    margin:1rem 0;
+    padding:0.25rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    font-size: medium;
+    align-items: center;
+    @media screen and (max-width:480px){
+width:15rem;
+display: flex;
+justify-content: center;
+    }
+
+}
+.hireBtn:hover{
+    transform: scale(1.1);
+
+}

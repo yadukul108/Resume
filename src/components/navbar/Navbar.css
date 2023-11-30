@@ -1,0 +1,120 @@
+.navbar{
+    height:5rem;
+    width:100vw;
+    max-width: 75%;
+    display:flex;
+    margin:0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    position: sticky;
+
+    top:0;
+    z-index: 3;
+}
+.logo
+{
+    background-image: url("./icons8-a-100.png");
+    background-size: cover;
+    height:6rem;
+    width:6rem;
+}
+.btn
+{
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    width:7.8rem;
+    justify-content: space-between;
+    padding:0.5rem 1rem;
+    border: none;
+    border-radius: 2rem;
+    background-color: orange;
+    /* transition: transform 0.3s; */
+    transform-origin: center center;
+  
+}
+.btn:hover{
+    transform: scale(1.1);
+  
+}
+.Contact{
+    background-image: url("./icons8-message-50.png");
+    background-size: cover;
+    height:2rem;
+    width:2rem;
+
+}
+.navitems
+{
+    display:flex;
+    /* justify-content: space-between; */
+    
+}
+.navitemstext{
+    margin: 0 1.5rem;
+    cursor: pointer;
+    font-weight:bold;
+    
+
+}
+.navitemstext:hover{
+    color: orange;
+    border-bottom: 3px solid orange;
+   
+
+}
+.active{
+    color:orange;
+    border-bottom: 3px solid orange;
+
+}
+.logodrop{
+    background-image: url("./icons8-menu-50.png");
+    background-size: cover;
+    height: 3rem;
+    width:3rem;
+    display: flex;
+    cursor: pointer;
+
+    position: fixed;
+    right:4rem;
+    @media screen and (max-width:480px){
+        right:0.5rem;
+    }
+}
+
+.navitemsmobile{
+    position: fixed;
+    top:5.5rem;
+    right:0rem;
+    z-index: 99;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    height:fit-content;
+    min-width: 10rem;
+    background:pink;
+    border-radius:1rem;
+}
+.navitemstextmobile{
+    color:black;
+    padding: 0.5rem 3rem;
+    margin:0.25rem;
+    background:white;
+    cursor: pointer;
+}
+@media screen and (max-width:720px) {
+    .navitemsmobile{
+        display:flex;
+
+    }
+    .navitems{
+        display: none;
+
+    }
+    .btn{
+        display: none;
+    }
+    
+}
