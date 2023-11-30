@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.f4bde5a1.css",
-    "main.js": "/static/js/main.a0de01c3.js",
-    "static/js/787.7da95b79.chunk.js": "/static/js/787.7da95b79.chunk.js",
-    "static/media/hospital.jpg": "/static/media/hospital.539fb21b736ab0a8adb9.jpg",
-    "static/media/1701107684567-removebg-preview.png": "/static/media/1701107684567-removebg-preview.903d3f3ce6dbe4087a9d.png",
-    "static/media/newsapp.webp": "/static/media/newsapp.429a80ffc59f055cbb7b.webp",
-    "index.html": "/index.html",
-    "main.f4bde5a1.css.map": "/static/css/main.f4bde5a1.css.map",
-    "main.a0de01c3.js.map": "/static/js/main.a0de01c3.js.map",
-    "787.7da95b79.chunk.js.map": "/static/js/787.7da95b79.chunk.js.map"
+    "main.css": "/Resume/static/css/main.f65a96d2.css",
+    "main.js": "/Resume/static/js/main.065fd358.js",
+    "static/js/787.7da95b79.chunk.js": "/Resume/static/js/787.7da95b79.chunk.js",
+    "static/media/hospital.jpg": "/Resume/static/media/hospital.539fb21b736ab0a8adb9.jpg",
+    "static/media/1701107684567-removebg-preview.png": "/Resume/static/media/1701107684567-removebg-preview.903d3f3ce6dbe4087a9d.png",
+    "static/media/newsapp.webp": "/Resume/static/media/newsapp.429a80ffc59f055cbb7b.webp",
+    "index.html": "/Resume/index.html",
+    "main.f65a96d2.css.map": "/Resume/static/css/main.f65a96d2.css.map",
+    "main.065fd358.js.map": "/Resume/static/js/main.065fd358.js.map",
+    "787.7da95b79.chunk.js.map": "/Resume/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f4bde5a1.css",
-    "static/js/main.a0de01c3.js"
+    "static/css/main.f65a96d2.css",
+    "static/js/main.065fd358.js"
   ]
 }
