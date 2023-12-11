@@ -25,7 +25,7 @@ Allocation in Hospitals through Digital Technology and Al Integration. <br/>This
   <div className="explanation">
   <div className="heading1">Featured Project</div>
   <div className="heading2">NewsAPP</div>
-  <div className="description">Discover a new way to stay informed with [Your News App Name], a cutting-edge news application crafted with precision using ReactJS. Experience news like never before as we bring you the latest updates, trending stories, and in-depth coverage from around the world, all in one place.</div>
+  <div className="description">Discover a new way to stay informed with myNewsApp, a cutting-edge news application crafted with precision using ReactJS. Experience news like never before as we bring you the latest updates, trending stories, and in-depth coverage from around the world, all in one place.</div>
   <div className="toolsUsed">ReactJS, News API, Bootstrap</div>
   <div className="git"><div className="gitimage"></div><div className="link"></div></div>
 

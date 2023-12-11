@@ -17,9 +17,9 @@ const Skill = () => {
                     <div className="subheading">Dev Tools</div>
 
                     <div className="tools">ReactJs</div>
-                    <div className="tools">NodeJs</div>
-                    <div className="tools">NodeJs</div>
-                    <div className="tools">NodeJs</div>
+                    <div className="tools">Tailwind</div>
+                    <div className="tools">Bootstrap</div>
+                    <div className="tools">GitHub</div>
 
                 </div>
                 <div className="backend">
@@ -31,10 +31,10 @@ const Skill = () => {
 <div className="subheading">Dev Tools</div>
 
 <div className="tools">NodeJs</div>
-<div className="tools">NodeJs</div>
+<div className="tools">MongoDb</div>
 
-<div className="tools">NodeJs</div>
-<div className="tools">NodeJs</div>
+<div className="tools">ExpressJs</div>
+<div className="tools">GitHub</div>
 
                 </div>
             </div>
